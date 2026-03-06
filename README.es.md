@@ -2,6 +2,8 @@
 
 [Read in English 🇺🇸](./README.md)
 
+**🌐 Live Demo:**(https://mrecalde-movie-explorer.netlify.app/)
+
 Movie Explorer es una Single Page Application (SPA) desarrollada con React que consume la API de TMDB. Más que un simple catálogo de películas, este proyecto se centra en una arquitectura limpia, gestión de estado predecible, navegación orientada a la URL y optimización de la experiencia de usuario (UX).
 
 ### 🏗️ Una Base Evolutiva

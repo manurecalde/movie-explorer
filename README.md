@@ -2,6 +2,8 @@
 
 [Leer en Español 🇪🇸](./README.es.md)
 
+**🌐 Live Demo:**(https://mrecalde-movie-explorer.netlify.app/)
+
 Single Page Application built with React that consumes the TMDB API.\
 More than a movie catalog, this project focuses on **clean architecture,
 predictable state management, URL-driven navigation, and UX
