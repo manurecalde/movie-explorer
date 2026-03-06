@@ -1,0 +1,31 @@
+.skeleton-card {
+	aspect-ratio: 240/432;
+}
+
+.skeleton-card-img {
+	aspect-ratio: 2/3;
+	border-radius: 8px 8px 0 0;
+	width: 100%;
+}
+
+.skeleton-card-title {
+	width: 80%;
+	border-radius: 8px;
+	height: 2rem;
+}
+
+.skeleton-animation {
+	background: linear-gradient(90deg, #1f1f1f 25%, #2d2d2d 50%, #1f1f1f 75%);
+	animation: loading 2s infinite;
+	background-size: 200% 100%;
+	background-size: 200% 100%;
+}
+
+@keyframes loading {
+	0% {
+		background-position: 200% 0;
+	}
+	100% {
+		background-position: -200% 0;
+	}
+}

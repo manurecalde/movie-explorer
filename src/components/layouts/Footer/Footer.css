@@ -1,0 +1,114 @@
+.footer {
+	background-color: var(--bg-header-footer);
+	color: #f8fafc;
+	padding: 3rem 1rem 1.5rem 1rem;
+	margin-top: 4rem;
+	border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-container {
+	max-width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	gap: 2rem;
+}
+
+.footer-links {
+	min-width: 250px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.footer-links h4 {
+	margin-bottom: 1.2rem;
+	font-size: 1.1rem;
+	font-weight: 600;
+}
+
+.social-group {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	align-items: flex-start;
+}
+
+.social-link {
+	display: flex;
+	align-items: center;
+	gap: 0.6rem;
+	text-decoration: none;
+	color: var(--text-main);
+	font-size: 0.95rem;
+	transition: all 0.3s ease;
+}
+
+.social-link svg {
+	width: 20px;
+	height: 20px;
+	fill: currentColor;
+}
+
+.social-link:hover {
+	color: var(--primary-light);
+	transform: translateX(5px);
+}
+
+.footer-brand {
+	min-width: 250px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	text-align: right;
+}
+
+.tmdb-logo {
+	width: 80px;
+	height: auto;
+	margin-bottom: 1rem;
+}
+
+.attribution {
+	font-size: 0.85rem;
+	line-height: 1.5;
+	color: #94a3b8;
+	max-width: 320px;
+}
+
+.footer-copyright {
+	margin-top: 3rem;
+	padding-top: 1.5rem;
+	border-top: 1px solid rgba(255, 255, 255, 0.05);
+	text-align: center;
+	font-size: 0.8rem;
+	color: #94a3b8;
+}
+
+@media (max-width: 768px) {
+	.footer-container {
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		gap: 2.5rem;
+	}
+
+	.footer-links {
+		align-items: center;
+	}
+
+	.social-group {
+		align-items: center;
+	}
+
+	.footer-brand {
+		align-items: center;
+		text-align: center;
+	}
+
+	.social-link:hover {
+		transform: translateY(-3px);
+	}
+}

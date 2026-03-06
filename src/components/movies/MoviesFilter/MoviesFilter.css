@@ -1,0 +1,38 @@
+.filter-container {
+	margin: 32px 0;
+}
+
+.genre-select {
+	appearance: none;
+	background-color: var(--bg-header-footer);
+	color: var(--text-main);
+	padding: 10px 40px 10px 15px;
+	font-size: 1rem;
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	border-radius: 8px;
+	cursor: pointer;
+	outline: none;
+	transition: all 0.3s ease;
+	width: 100%;
+	max-width: 200px;
+
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='white' viewBox='0 0 24 24'%3E%3Cpath d='M7 10l5 5 5-5z'/%3E%3C/svg%3E");
+	background-repeat: no-repeat;
+	background-position: right 10px center;
+	background-size: 20px;
+}
+
+.genre-select:hover {
+	border-color: var(--text-main);
+}
+
+.genre-select:focus {
+	border-color: var(--text-main);
+}
+
+.genre-select option {
+	background-color: rgba(255, 255, 255, 0.1);
+	color: var(--text-main);
+	padding: 10px;
+	cursor: pointer;
+}

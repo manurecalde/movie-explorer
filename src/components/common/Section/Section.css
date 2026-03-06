@@ -1,0 +1,30 @@
+section {
+	margin-top: 48px;
+}
+.section-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 24px;
+	border-left: 4px solid var(--primary);
+	padding-left: 12px;
+}
+
+.section-header h2 {
+	font-size: 1.5rem;
+	color: #ffffff;
+	margin: 0;
+}
+
+.section-header a {
+	color: white;
+	font-size: 0.9rem;
+	border-radius: 12px;
+	padding: 4px 12px;
+	background-color: var(--primary);
+}
+
+.section-header a:hover {
+	font-size: 0.9rem;
+	background-color: var(--primary-light);
+}

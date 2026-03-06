@@ -1,0 +1,51 @@
+.movie-card {
+	border-radius: 8px;
+	background-color: #1f1f1f;
+	filter: brightness(0.8);
+	transition: all 0.3s ease;
+}
+
+.movie-card:hover {
+	transform: scale(1.02);
+	filter: brightness(1);
+}
+.movie-card img {
+	border-radius: 8px 8px 0 0;
+	aspect-ratio: 2/3;
+	width: 100%;
+	object-fit: cover;
+}
+.card-img-container {
+	position: relative;
+}
+
+.movie-card .card-info {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 8px;
+}
+
+.movie-card .card-title {
+	height: 3rem;
+}
+
+.movie-card h3 {
+	text-align: center;
+	font-size: 1rem;
+	line-height: 1.5rem;
+	color: #ffffff;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.movie-card.exit-animation {
+	opacity: 0;
+	transform: scale(0.9) translateY(10px);
+	filter: blur(4px);
+	pointer-events: none;
+	transition: 0.3s all ease;
+}
